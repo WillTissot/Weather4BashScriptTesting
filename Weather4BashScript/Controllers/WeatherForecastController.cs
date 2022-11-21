@@ -22,6 +22,9 @@ namespace Weather4BashScript.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+
+
+
             Console.WriteLine(Environment.GetEnvironmentVariable("testVar"));
 
 #if DEBUG
