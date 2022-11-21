@@ -26,14 +26,6 @@ namespace Weather4BashScript.Controllers
 
 
 
-
-
-
-
-
-
-
-
             Console.WriteLine(Environment.GetEnvironmentVariable("testVar"));
 
 #if DEBUG
