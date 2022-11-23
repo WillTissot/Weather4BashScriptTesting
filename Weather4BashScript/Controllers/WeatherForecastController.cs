@@ -23,9 +23,6 @@ namespace Weather4BashScript.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
 
-
-
-
             Console.WriteLine(Environment.GetEnvironmentVariable("testVar"));
 
 #if DEBUG
